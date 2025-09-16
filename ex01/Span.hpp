@@ -6,7 +6,7 @@
 /*   By: mohaben- <mohaben-@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/16 15:32:31 by mohaben-          #+#    #+#             */
-/*   Updated: 2025/09/16 17:47:11 by mohaben-         ###   ########.fr       */
+/*   Updated: 2025/09/16 19:54:13 by mohaben-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ class	Span
 		void	addNumber(int value);
 		int		shortestSpan();
 		int		longestSpan();
+		void	addRandom();
 };
 
 #endif
