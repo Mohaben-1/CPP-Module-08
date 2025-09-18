@@ -1,12 +1,12 @@
-NAME = Span
+NAME = Mutated
 
 CXX = c++
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
-INCLUDES = Span.hpp
+INCLUDES = MutantStack.hpp
 
-SRC = main.cpp Span.cpp
+SRC = main.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
